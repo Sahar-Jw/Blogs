@@ -1,0 +1,17 @@
+.Inputs{
+    width: 360px;
+    height: 48px;
+    padding: 12px 14px;
+    border-radius: 8px;
+    background: #FFFFFF;
+    border: 1px solid #7F56D9;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+    &:focus{
+        outline: none;
+        border: 2px solid #7F56D9;
+    }
+    &::placeholder{
+        color: var(--third-text);
+        font-size: 16px;
+    }
+}

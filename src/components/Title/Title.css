@@ -1,0 +1,9 @@
+.Title{
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--primary-text);
+}
+.SubTitle{
+    font-size: 20px;
+    color: var(--sec-text);
+}

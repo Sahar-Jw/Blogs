@@ -1,0 +1,6 @@
+p.linkRouter{
+    font-size: 12px;
+    a{
+        color: var(--primary-text);
+    }
+}

@@ -1,0 +1,25 @@
+.Hero{
+    height: calc(100vh - 85px);
+    display: flex;
+    padding: 0px 70px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+}
+
+@media screen and (max-width:992px) {
+    .Hero{
+        padding: 0px 40px;
+        h1{
+            font-size: 34px;
+        }
+        p{
+            font-size: 16px;
+            text-align: center;
+        }
+        div{
+            flex-direction: column;
+        }
+    }
+}

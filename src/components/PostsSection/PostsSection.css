@@ -1,0 +1,32 @@
+.post-section{
+    padding: 32px 70px;
+    h1{
+        font-weight: 600;
+        font-size: 38px;
+        color: var(--primary-text);
+        margin-bottom: 35px;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr);
+        grid-template-rows: repeat(2 , 1fr);
+        gap:32px ;
+        margin-bottom: 70px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .post-section{
+    padding: 32px 40px;
+    h1{
+        font-size: 24px;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        column-gap: 32px;
+        row-gap:45px ;
+        margin-bottom: 70px;
+    }
+}
+}
